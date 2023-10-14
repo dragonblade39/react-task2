@@ -3,31 +3,33 @@
   align-items: center;
   justify-content: center;
   align-content: center;
-  padding-left: 40%;
+  /* padding-left: 20%; */
   padding-top: 2%;
   padding-bottom: 2%;
 }
+
+
 
 .calcbtn {
   padding-top: 10px;
   padding-bottom: 10px;
   margin-bottom: -4.5px;
   font-size: x-large;
-
-  width: 6.9%;
+  width: 4%;
   background-color: #050c26;
   color: white;
   border: none;
 }
 
-.calcbtn:hover {
+/* .calcbtn:hover {
   background-color: none;
-}
+} */
 .calcbtn,
 .calcbtn1 {
   background-color: #050c26 !important;
   color: white !important;
 }
+
 .table {
   width: 100%;
 }
@@ -36,7 +38,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: x-large;
-  width: 27.65%;
+  width: 16%;
   color: white;
   border: none;
   background-color: #050c26;
@@ -48,25 +50,27 @@
 
 .calcinput1,
 .calcoutput1 {
-  height: 2em !important;
+  height: 3em !important;
   font-size: xx-large !important;
-  width: 7.95em !important;
+  width: 9.27em !important;
   background-color: #172d67 !important;
   resize: none !important;
   direction: rtl !important;
-  writing-mode: vertical-rl !important; /* Set vertical writing mode from bottom to top */
+  writing-mode: vertical-rl !important;
+  /* Set vertical writing mode from bottom to top */
   text-orientation: upright !important;
-  margin-bottom: -13% !important;
+  margin-bottom: -15% !important;
   border: 0px solid #172d67 !important;
   outline: none !important;
   color: white !important;
   pointer-events: none !important;
-  margin-right: -170px !important;
+  margin-right: -526% !important;
 }
 
 .calcoutput1 {
   margin-bottom: -3.655% !important;
 }
+
 .calcinput1 {
   border-top-left-radius: 15px !important;
   border-top-right-radius: 15px !important;
@@ -77,6 +81,7 @@
 }
 
 @media only screen and (max-width: 380px) {
+
   .calcinput1,
   .calcoutput1 {
     width: 5.14em;
@@ -85,15 +90,19 @@
     border-radius: unset;
     margin-left: 1px;
   }
+
   .calcbtn {
     width: 20.91%;
   }
+
   .calcbtn1 {
     width: 150px;
   }
+
   .calc {
     padding-left: 15%;
   }
+
   .calcinput1 {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -101,6 +110,7 @@
 }
 
 @media only screen and (min-width: 380px) and (max-width: 500px) {
+
   .calcinput1,
   .calcoutput1 {
     width: 5.14em;
@@ -109,15 +119,19 @@
     border-radius: unset;
     margin-left: 1px;
   }
+
   .calcbtn {
     width: 19.32%;
   }
+
   .calcbtn1 {
     width: 150px;
   }
+
   .calc {
     padding-left: 15%;
   }
+
   .calcinput1 {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
